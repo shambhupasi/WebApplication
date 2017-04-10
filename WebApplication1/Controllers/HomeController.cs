@@ -16,7 +16,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult Navigate()
         {
-            bool response = true;
+            bool response = false;
             if (response)
             {
                 return RedirectToAction("Contact");
